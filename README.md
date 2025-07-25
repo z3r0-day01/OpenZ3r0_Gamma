@@ -26,4 +26,4 @@ OpenZ3r0_Gamma is designed to predict outcomes with High-Accuracy.
 
 ---
 
-Version 0.0.1c
+Version 0.0.1e
