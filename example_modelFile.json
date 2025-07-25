@@ -24,7 +24,7 @@
             "Quantization": "int8",
             "Disk_Needed": "1GB"
         },
-        "Config_NEAT: {
+        "Config_NEAT": {
             "Parameters": {
                 "PopulationSize": 100,
                 "Generations": 50,
@@ -41,7 +41,7 @@
         "Activations": [],
         "Hash": "--- HASH ---",
         "HashType": "SHA256"
-    }.
+    },
     "Model_LLM": {
         "Layers": [[],[]],
         "Weights": [[],[],[],[]],
@@ -57,7 +57,7 @@
         "Generation": 0,
         "Hash": "--- HASH ---",
         "HashType": "SHA256"
-    }
+    },
     "Hash": "--- HASH ---",
     "HashType": "SHA512",
     "Metadata": {
