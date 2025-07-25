@@ -1,0 +1,69 @@
+{
+    "Config": {
+        "ModelName": "Example",
+        "Version": "1.0",
+        "Description": "This is an example model configuration file.",
+        "Config_Main": {
+            "Type": "float16",
+            "Parameters": {
+                "Dimensions": [128, 128],
+                "ParameterCount": 16384,
+                "ZeroPoint": null,
+                "Scale": null
+            },
+            "Compression": {
+                "Enabled": false,
+                "Method": null,
+                "Level": 0
+            },
+            "Disk_Needed": "32KB"
+        },
+        "Config_LLM": {
+            "Type": "RWKV",
+            "Parameters": "1b",
+            "Quantization": "int8",
+            "Disk_Needed": "1GB"
+        },
+        "Config_NEAT: {
+            "Parameters": {
+                "PopulationSize": 100,
+                "Generations": 50,
+                "MutationRate": 0.01,
+                "CrossoverRate": 0.7
+            },
+            "Disk_Needed": "500MB"
+        }
+    },
+    "Model_Main": {
+        "Layers": [[],[]],
+        "Weights": [[],[],[],[]],
+        "Biases": [[],[],[],[]],
+        "Activations": [],
+        "Hash": "--- HASH ---",
+        "HashType": "SHA256"
+    }.
+    "Model_LLM": {
+        "Layers": [[],[]],
+        "Weights": [[],[],[],[]],
+        "Biases": [[],[],[],[]],
+        "Activations": [],
+        "Hash": "--- HASH ---",
+        "HashType": "SHA256"
+    },
+    "Model_NEAT": {
+        "Population": [],
+        "Fitness": [],
+        "BestIndividuals": {},
+        "Generation": 0,
+        "Hash": "--- HASH ---",
+        "HashType": "SHA256"
+    }
+    "Hash": "--- HASH ---",
+    "HashType": "SHA512",
+    "Metadata": {
+        "Author": "Z3r0_Day01",
+        "Created": "2025-06-25",
+        "LastModified": "2023-06-25",
+        "License": "GPLv3.0"
+    }
+}
